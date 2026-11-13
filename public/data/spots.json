@@ -1,0 +1,397 @@
+[
+  {
+    "id": "yuzui",
+    "name": "鱼嘴分水堤",
+    "lng": 103.6078,
+    "lat": 31.0038,
+    "elevation": 727.8,
+    "category": "水利工程",
+    "stayMinutes": 30,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "核心",
+      "拍照"
+    ],
+    "accessibleLevel": 3
+  },
+  {
+    "id": "feishayan",
+    "name": "飞沙堰",
+    "lng": 103.6081662,
+    "lat": 31.0010593,
+    "elevation": 725.2,
+    "category": "水利工程",
+    "stayMinutes": 20,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "核心"
+    ],
+    "accessibleLevel": 3
+  },
+  {
+    "id": "baopingkou",
+    "name": "宝瓶口",
+    "lng": 103.6105647,
+    "lat": 31.0011322,
+    "elevation": 727.1,
+    "category": "水利工程",
+    "stayMinutes": 20,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "核心",
+      "拍照"
+    ],
+    "accessibleLevel": 2
+  },
+  {
+    "id": "fulongguan",
+    "name": "伏龙观",
+    "lng": 103.6105741,
+    "lat": 31.000834,
+    "elevation": 728.0,
+    "category": "人文古迹",
+    "stayMinutes": 25,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "人文"
+    ],
+    "accessibleLevel": 2
+  },
+  {
+    "id": "lidui",
+    "name": "离堆公园",
+    "lng": 103.6205,
+    "lat": 30.9965,
+    "elevation": 726.7,
+    "category": "园林",
+    "stayMinutes": 30,
+    "mustVisit": false,
+    "tags": [
+      "休闲",
+      "入口"
+    ],
+    "accessibleLevel": 4
+  },
+  {
+    "id": "anlan",
+    "name": "安澜索桥",
+    "lng": 103.6055439,
+    "lat": 31.0078337,
+    "elevation": 734.2,
+    "category": "桥梁",
+    "stayMinutes": 15,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "拥堵点",
+      "体验"
+    ],
+    "accessibleLevel": 1
+  },
+  {
+    "id": "erwangmiao",
+    "name": "二王庙",
+    "lng": 103.6081189,
+    "lat": 31.0083083,
+    "elevation": 773.1,
+    "category": "人文古迹",
+    "stayMinutes": 40,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "人文",
+      "台阶多"
+    ],
+    "accessibleLevel": 1
+  },
+  {
+    "id": "yuleiguan",
+    "name": "玉垒关",
+    "lng": 103.6095179,
+    "lat": 31.004261,
+    "elevation": 746.0,
+    "category": "关隘",
+    "stayMinutes": 15,
+    "mustVisit": false,
+    "tags": [
+      "人文",
+      "观景"
+    ],
+    "accessibleLevel": 2
+  },
+  {
+    "id": "yuleige",
+    "name": "玉垒阁",
+    "lng": 103.6123879,
+    "lat": 31.0044967,
+    "elevation": 856.0,
+    "category": "观景建筑",
+    "stayMinutes": 30,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "制高点",
+      "全景"
+    ],
+    "accessibleLevel": 1
+  },
+  {
+    "id": "songmao",
+    "name": "松茂古道",
+    "lng": 103.6195,
+    "lat": 31.0145,
+    "elevation": 846.9,
+    "category": "古道",
+    "stayMinutes": 25,
+    "mustVisit": false,
+    "tags": [
+      "徒步",
+      "台阶多"
+    ],
+    "accessibleLevel": 1
+  },
+  {
+    "id": "chenghuang",
+    "name": "城隍庙",
+    "lng": 103.6133468,
+    "lat": 31.0028751,
+    "elevation": 770.1,
+    "category": "人文古迹",
+    "stayMinutes": 20,
+    "mustVisit": false,
+    "tags": [
+      "人文"
+    ],
+    "accessibleLevel": 2
+  },
+  {
+    "id": "nanqiao",
+    "name": "南桥",
+    "lng": 103.613962,
+    "lat": 30.999104,
+    "elevation": 733.3,
+    "category": "桥梁",
+    "stayMinutes": 15,
+    "mustVisit": true,
+    "tags": [
+      "必看",
+      "夜景",
+      "拍照"
+    ],
+    "accessibleLevel": 4
+  },
+  {
+    "id": "guanxian",
+    "name": "灌县古城",
+    "lng": 103.625,
+    "lat": 30.993,
+    "elevation": 724.0,
+    "category": "街区",
+    "stayMinutes": 60,
+    "mustVisit": false,
+    "tags": [
+      "餐饮",
+      "休闲",
+      "夜景"
+    ],
+    "accessibleLevel": 4
+  },
+  {
+    "id": "xijie",
+    "name": "西街",
+    "lng": 103.6258,
+    "lat": 30.9945,
+    "elevation": 721.9,
+    "category": "街区",
+    "stayMinutes": 40,
+    "mustVisit": false,
+    "tags": [
+      "餐饮",
+      "购物"
+    ],
+    "accessibleLevel": 3
+  },
+  {
+    "id": "xuahuamen",
+    "name": "宣化门",
+    "lng": 103.6206979,
+    "lat": 30.9981733,
+    "elevation": 724.9,
+    "category": "城门",
+    "stayMinutes": 10,
+    "mustVisit": false,
+    "tags": [
+      "人文",
+      "拍照"
+    ],
+    "accessibleLevel": 3
+  },
+  {
+    "id": "yangtianwo",
+    "name": "仰天窝广场",
+    "lng": 103.6275,
+    "lat": 30.9938,
+    "elevation": 722.8,
+    "category": "广场",
+    "stayMinutes": 15,
+    "mustVisit": false,
+    "tags": [
+      "休闲",
+      "入口"
+    ],
+    "accessibleLevel": 4
+  },
+  {
+    "id": "qinyanlou",
+    "name": "秦堰楼(6号门)",
+    "lng": 103.6074843,
+    "lat": 31.0092614,
+    "elevation": 775.5,
+    "category": "观景建筑",
+    "stayMinutes": 20,
+    "mustVisit": false,
+    "tags": [
+      "制高点",
+      "入口",
+      "全景"
+    ],
+    "accessibleLevel": 2
+  },
+  {
+    "id": "yuleishan",
+    "name": "玉垒山公园",
+    "lng": 103.618,
+    "lat": 31.0105,
+    "elevation": 734.1,
+    "category": "山林",
+    "stayMinutes": 40,
+    "mustVisit": false,
+    "tags": [
+      "徒步",
+      "自然"
+    ],
+    "accessibleLevel": 1
+  },
+  {
+    "id": "vc_south",
+    "name": "游客中心(南门)",
+    "lng": 103.6215,
+    "lat": 30.9955,
+    "elevation": 726.7,
+    "category": "游客中心",
+    "stayMinutes": 10,
+    "mustVisit": false,
+    "tags": [
+      "服务",
+      "咨询"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "vc_gate6",
+    "name": "游客中心(6号门)",
+    "lng": 103.5985,
+    "lat": 31.0118,
+    "elevation": 738.0,
+    "category": "游客中心",
+    "stayMinutes": 10,
+    "mustVisit": false,
+    "tags": [
+      "服务",
+      "咨询"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "shuttle_lidui",
+    "name": "观光车站(碑亭)",
+    "lng": 103.6195,
+    "lat": 30.9975,
+    "elevation": 724.0,
+    "category": "交通设施",
+    "stayMinutes": 5,
+    "mustVisit": false,
+    "tags": [
+      "观光车",
+      "候车"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "shuttle_yuzui",
+    "name": "观光车站(鱼嘴)",
+    "lng": 103.6088,
+    "lat": 31.0048,
+    "elevation": 737.4,
+    "category": "交通设施",
+    "stayMinutes": 5,
+    "mustVisit": false,
+    "tags": [
+      "观光车",
+      "候车"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "toilet_yuzui",
+    "name": "公厕(鱼嘴)",
+    "lng": 103.6095,
+    "lat": 31.0052,
+    "elevation": 759.6,
+    "category": "公共设施",
+    "stayMinutes": 5,
+    "mustVisit": false,
+    "tags": [
+      "厕所"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "toilet_erwang",
+    "name": "公厕(二王庙)",
+    "lng": 103.608476,
+    "lat": 31.006489,
+    "elevation": 736.6,
+    "category": "公共设施",
+    "stayMinutes": 5,
+    "mustVisit": false,
+    "tags": [
+      "厕所"
+    ],
+    "accessibleLevel": 4
+  },
+  {
+    "id": "medical",
+    "name": "医疗点(游客中心)",
+    "lng": 103.6212,
+    "lat": 30.9958,
+    "elevation": 727.0,
+    "category": "医疗点",
+    "stayMinutes": 10,
+    "mustVisit": false,
+    "tags": [
+      "医疗",
+      "求助"
+    ],
+    "accessibleLevel": 5
+  },
+  {
+    "id": "rest_area",
+    "name": "休憩区(飞沙堰)",
+    "lng": 103.6128,
+    "lat": 31.0028,
+    "elevation": 781.3,
+    "category": "休憩",
+    "stayMinutes": 10,
+    "mustVisit": false,
+    "tags": [
+      "休息",
+      "遮阴"
+    ],
+    "accessibleLevel": 4
+  }
+]

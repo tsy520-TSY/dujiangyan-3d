@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>都江堰景区 3D 模型</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <canvas id="scene"></canvas>
+
+      <!-- 加载层 -->
+      <div id="loading">
+        <div class="loading-inner">
+          <div class="loading-title">都江堰景区</div>
+          <div class="loading-sub">三维地形模型加载中</div>
+          <div class="loading-bar"><i id="loading-fill"></i></div>
+          <div class="loading-hint" id="loading-hint">读取高程数据…</div>
+        </div>
+      </div>
+
+      <!-- 顶部标题 -->
+      <header id="topbar">
+        <h1>都江堰水利工程</h1>
+        <p>World Cultural Heritage · 3D Terrain Model</p>
+      </header>
+
+      <!-- 左侧图例 / 图层控制 -->
+      <aside id="panel">
+        <div class="panel-head">图层</div>
+        <label class="layer"><input type="checkbox" id="tgl-spots" checked /><span>景点标注</span></label>
+        <label class="layer"><input type="checkbox" id="tgl-water" checked /><span>河道水面</span></label>
+        <label class="layer"><input type="checkbox" id="tgl-structures" checked /><span>水工建筑</span></label>
+        <label class="layer"><input type="checkbox" id="tgl-roads" checked /><span>道路步道</span></label>
+        <label class="layer"><input type="checkbox" id="tgl-shade" checked /><span>地形阴影</span></label>
+        <label class="layer"><input type="checkbox" id="tgl-wire" /><span>网格线框</span></label>
+        <div class="panel-head">视角</div>
+        <div class="views">
+          <button data-view="overview">全景</button>
+          <button data-view="yuzui">鱼嘴</button>
+          <button data-view="anlan">安澜索桥</button>
+          <button data-view="baopingkou">宝瓶口</button>
+          <button data-view="yuleige">玉垒阁</button>
+          <button data-view="city">古城</button>
+        </div>
+        <button id="view-free" class="free-view-toggle" type="button" aria-pressed="false">开启自由视角</button>
+        <div id="view-help" class="view-help">左键旋转 · 滚轮缩放 · 右键平移</div>
+        <div class="panel-head">路线预览</div>
+        <label class="route-label" for="route-start">起点</label>
+        <select id="route-start" class="route-select"></select>
+        <label class="route-label" for="route-end">终点</label>
+        <select id="route-end" class="route-select"></select>
+        <button id="route-plan" class="route-plan">规划步行路线</button>
+        <div id="route-status" class="route-status">按当前 OSM 步行路网生成路线预览</div>
+        <div class="panel-head">高程</div>
+        <div class="elev-info">
+          <div><span>最低</span><b id="el-min">—</b></div>
+          <div><span>最高</span><b id="el-max">—</b></div>
+          <div><span>落差</span><b id="el-drop">—</b></div>
+        </div>
+      </aside>
+
+      <!-- 右下角比例尺与罗盘 -->
+      <div id="compass"><span>N</span></div>
+      <div id="scalebar"><b id="scale-text">500 m</b></div>
+
+      <!-- 悬停提示 -->
+      <div id="tooltip"></div>
+
+      <!-- 数据来源 -->
+      <footer id="credits">
+        高程 © AWS Terrain Tiles · 影像 © Esri, Maxar, Earthstar Geographics · 路网 © OpenStreetMap contributors (ODbL)
+      </footer>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

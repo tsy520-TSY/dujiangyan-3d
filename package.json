@@ -1,0 +1,22 @@
+{
+  "name": "dujiangyan-3d",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "都江堰景区 3D 地形模型 - Three.js + DEM + 卫星影像",
+  "scripts": {
+    "fetch-data": "python tools/build_terrain.py",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:data": "python tools/test_terrain.py",
+    "test:render": "node tools/shot.mjs && python tools/test_render.py"
+  },
+  "devDependencies": {
+    "puppeteer-core": "^25.16.0",
+    "vite": "^5.4.0"
+  },
+  "dependencies": {
+    "three": "^0.169.0"
+  }
+}

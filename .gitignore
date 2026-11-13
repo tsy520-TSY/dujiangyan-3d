@@ -1,0 +1,29 @@
+# 依赖
+node_modules/
+
+# 构建产物
+dist/
+
+# 工具 / 编辑器产物
+.trae-html-share-packages/
+.screenshots/
+.vscode/
+.idea/
+
+# 日志与系统文件
+*.log
+.DS_Store
+Thumbs.db
+
+# 验收中间产物，只保留 README 引用的三张图
+probe/*
+!probe/shot.png
+!probe/shot_yuzui.png
+!probe/shot_yulei.png
+
+# Python
+__pycache__/
+*.pyc
+
+# 如需排除 22.6MB 的卫星影像（Esri 影像再分发受限），取消下面一行注释
+# public/data/terrain.jpg

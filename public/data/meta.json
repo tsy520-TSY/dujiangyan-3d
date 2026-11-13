@@ -1,0 +1,30 @@
+{
+  "name": "都江堰水利工程景区",
+  "bbox": {
+    "west": 103.575,
+    "east": 103.645,
+    "south": 30.983,
+    "north": 31.03
+  },
+  "grid": {
+    "width": 1025,
+    "height": 769
+  },
+  "elevation": {
+    "min": 697.01,
+    "max": 1252.91
+  },
+  "sceneSizeMeters": {
+    "width": 6679,
+    "height": 5195
+  },
+  "imagery": {
+    "width": 8192,
+    "height": 6417
+  },
+  "sources": {
+    "elevation": "AWS Terrain Tiles terrarium z15",
+    "imagery": "Esri World Imagery z18 (c) Esri, Maxar, Earthstar Geographics"
+  },
+  "generatedAt": "2026-11-11T14:37:47+0800"
+}
